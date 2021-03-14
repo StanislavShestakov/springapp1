@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fe2c173-465d-4c67-bab8-dd4c79a16452" name="Default Changelist" comment="anotacion 2 componetnts(beans)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1fe2c173-465d-4c67-bab8-dd4c79a16452" name="Default Changelist" comment="autowired ClassicalMusic">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/shestakov/springcourse/ClassicalMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/shestakov/springcourse/ClassicalMusic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/shestakov/springcourse/TestSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/shestakov/springcourse/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/shestakov/springcourse/MusicPlayer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassicalMusic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClassicalMusic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -87,15 +85,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="119">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,9 +148,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/RapMusic.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/RockMusic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/TestSpring.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/MusicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java" />
       </list>
     </option>
   </component>
@@ -182,9 +182,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="757" />
+    <option name="x" value="983" />
     <option name="y" value="5" />
-    <option name="width" value="1077" />
+    <option name="width" value="851" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -303,7 +303,7 @@
       <workItem from="1615578679393" duration="2744000" />
       <workItem from="1615627304232" duration="2328000" />
       <workItem from="1615639109340" duration="5330000" />
-      <workItem from="1615753322582" duration="1223000" />
+      <workItem from="1615753322582" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="first changes">
       <created>1615402624466</created>
@@ -368,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615664607264</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="autowired ClassicalMusic">
+      <created>1615756683904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615756683905</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22841000" />
+    <option name="totallyTimeSpent" value="23268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="757" y="5" width="1077" height="991" extended-state="0" />
@@ -396,10 +403,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49501" visible="true" weight="0.37528345" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49501" visible="true" weight="0.37528345" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22431669" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22431669" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -463,7 +470,8 @@
     <MESSAGE value="anotacion with id" />
     <MESSAGE value="anotacion without id" />
     <MESSAGE value="anotacion 2 componetnts(beans)" />
-    <option name="LAST_COMMIT_MESSAGE" value="anotacion 2 componetnts(beans)" />
+    <MESSAGE value="autowired ClassicalMusic" />
+    <option name="LAST_COMMIT_MESSAGE" value="autowired ClassicalMusic" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/TestSpring.java">
@@ -505,6 +513,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,6 +590,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,21 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/RockMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
@@ -798,15 +796,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="119">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/ClassicalMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

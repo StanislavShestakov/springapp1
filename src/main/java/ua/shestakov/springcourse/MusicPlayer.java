@@ -12,6 +12,10 @@ public class MusicPlayer {
     private Music music;
 
     @Autowired
+    public void setMusic(Music music) {
+        this.music = music;
+    }
+
     public MusicPlayer(Music music) {
         this.music = music;
     }
