@@ -2,6 +2,8 @@ package ua.shestakov.springcourse;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.awt.*;
+
 public class TestSpring {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
@@ -15,8 +17,11 @@ public class TestSpring {
 //        MusicPlayer musicPlayer2 = new MusicPlayer(music2);
 //        musicPlayer2.playMusic();
 
-        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-        musicPlayer.playMusic();
+//        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+//        musicPlayer.playMusic();
+
+        Computer computer = context.getBean("computer", Computer.class);
+        System.out.println(computer);
         context.close();
     }
 }
