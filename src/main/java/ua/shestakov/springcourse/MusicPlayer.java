@@ -3,33 +3,39 @@ package ua.shestakov.springcourse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.support.ManagedList;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
 @Component
 public class MusicPlayer {
+
+    @Value("${musicPlayer.name}")
+    private String name;
+    @Value("${musicPlayer.volume}")
+    private int volume;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
     @Qualifier
-    private List<String> music1;
-    private List<String> music2;
-    public enum Genre{ROCK,CLASSICAL}
-    private Genre genre;
+    private Music music1;
+    private Music music2;
+
 
 
     public MusicPlayer(@Qualifier("rockMusic") RockMusic music1, @Qualifier("classicalMusic") ClassicalMusic music2) {
-        this.music1 = music1.getSong();
-        this.music2 = music2.getSong();
+        this.music1 = music1;
+        this.music2 = music2;
     }
 
-    public String playMusic(Genre genre) {
-          Random r = new Random();
-         if(genre.equals(Genre.ROCK))
-             return music1.get(r.nextInt(music1.size()));
-         else
-             return music2.get(r.nextInt(music2.size()));
-
+    public String playMusic() {
+        return "Playing: " + music1.getSong() + ", " + music2.getSong();
     }
 }

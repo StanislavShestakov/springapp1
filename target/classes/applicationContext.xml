@@ -9,6 +9,8 @@
 
     <context:component-scan base-package="ua.shestakov.springcourse"/>
 
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
 
 
 </beans>
