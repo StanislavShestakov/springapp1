@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-@Scope("singleton")
+@Scope("prototype")
 public class ClassicalMusic implements Music {
 
     @Override
