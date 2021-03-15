@@ -8,7 +8,7 @@ import org.springframework.beans.factory.support.ManagedList;
 import org.springframework.stereotype.Component;
 
 
-@Component
+
 public class MusicPlayer {
 
     @Value("${musicPlayer.name}")
@@ -24,7 +24,7 @@ public class MusicPlayer {
         return volume;
     }
 
-    @Qualifier
+
     private Music music1;
     private Music music2;
 
