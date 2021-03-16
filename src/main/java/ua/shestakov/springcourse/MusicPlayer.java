@@ -7,10 +7,15 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.support.ManagedList;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 
 public class MusicPlayer {
 
+
+    private List<Music> musicList = new ArrayList<>();
     @Value("${musicPlayer.name}")
     private String name;
     @Value("${musicPlayer.volume}")
@@ -25,17 +30,15 @@ public class MusicPlayer {
     }
 
 
-    private Music music1;
-    private Music music2;
 
+    public MusicPlayer(List<Music> list) {
+      this.musicList = list;
 
-
-    public MusicPlayer(@Qualifier("rockMusic") RockMusic music1, @Qualifier("classicalMusic") ClassicalMusic music2) {
-        this.music1 = music1;
-        this.music2 = music2;
     }
 
     public String playMusic() {
-        return "Playing: " + music1.getSong() + ", " + music2.getSong();
+        Random r = new Random();
+        Music music = musicList.get(r.nextInt(musicList.size()));
+        return "Playing: " + music.getSong();
     }
 }

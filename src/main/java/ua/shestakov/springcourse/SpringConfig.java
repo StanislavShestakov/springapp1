@@ -18,8 +18,18 @@ public class SpringConfig {
         return new RockMusic();
     }
     @Bean
+    public  JazzMusic jazzMusic(){
+        return new JazzMusic();
+    }
+
+    @Bean
+    public  ListGenre listGenre(){
+        return new ListGenre(rockMusic(),jazzMusic(),classicalMusic());
+    }
+
+    @Bean
     public  MusicPlayer musicPlayer(){
-        return  new MusicPlayer(rockMusic(),classicalMusic());
+        return  new MusicPlayer(listGenre().getListGenre());
     }
 
     @Bean
